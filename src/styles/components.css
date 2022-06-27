@@ -1,0 +1,361 @@
+/* Header Styles */
+header {
+  display: flex;
+  align-items: center;
+  height: 42px;
+  background-color: var(--primary);
+  color: var(--white);
+  justify-content: space-between;
+}
+
+.socials {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 70px;
+}
+
+.contact {
+  border-radius: 25px;
+  width: 160px;
+  height: 27px;
+  background-color: var(--primary);
+  color: var(--white);
+  border-color: var(--white);
+  border-style: solid;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 70px;
+  border-width: 0.5px;
+}
+
+.contact:hover {
+  background-color: var(--white);
+  color: var(--darkkale);
+}
+
+/* Nav Styles */
+nav {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  width: auto;
+  background-color: var(--white);
+}
+
+ul {
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0;
+  display: inline-flex;
+}
+
+li:hover {
+  color: var(--primary);
+}
+
+.account {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.account__icon {
+  width: 35px;
+}
+
+.account__icon:last-child {
+  margin-right: 65px;
+}
+
+.imageContainer {
+  display: flex;
+}
+
+.logo {
+  height: 65px;
+  width: 97px;
+  justify-content: flex-start;
+  margin-left: 65px;
+}
+
+/* Hero Styles */
+.hero {
+  background-image: url("../assets/mussels.jpeg");
+  height: 470px;
+  display: flex;
+  border-style: solid;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  background-color: var(--darkkale);
+  line-height: 0.5;
+  letter-spacing: 3px;
+}
+
+.white {
+  background-color: var(--white);
+  color: var(--darkkale);
+  width: 175px;
+  height: 40px;
+  border-radius: 25px;
+  font-size: 18px;
+  border-style: none;
+  margin: 5px;
+}
+
+.orange {
+  background-color: var(--primary);
+  color: var(--white);
+  width: 175px;
+  height: 40px;
+  border-radius: 25px;
+  font-size: 18px;
+  border-style: none;
+  margin: 5px;
+}
+
+.title {
+  font-size: 58px;
+}
+
+/* Menu Styles */
+
+.menu {
+  letter-spacing: 2px;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.heading {
+  color: var(--primary);
+  margin: 0;
+}
+
+.card {
+  height: 300px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 35px;
+}
+
+.round {
+  height: 185px;
+  width: 185px;
+  border-radius: 50%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bold:hover {
+  color: var(--primary);
+}
+
+/* Info Styles */
+
+.info {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.verticalImages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.rectangle {
+  height: 200px;
+  width: 350px;
+  margin: 20px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lineSpacing {
+  line-height: 2;
+  text-align: left;
+}
+
+.title2 {
+  font-size: 44px;
+}
+
+/* Order Styles */
+
+.order {
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 85%;
+  align-items: center;
+  justify-content: center;
+}
+
+.card2 {
+  height: auto;
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.menuImage {
+  height: 200px;
+  width: 200px;
+}
+
+.menuItem {
+  color: var(--sage);
+  margin: 10px;
+}
+
+.price {
+  margin: 0;
+}
+
+.menuItem:hover {
+  color: var(--primary);
+}
+
+/* Insta Styles */
+
+.insta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.orange2 {
+  color: var(--primary);
+}
+
+.text {
+  font-size: 24px;
+}
+
+.instaBtn {
+  width: 150px;
+  height: 30px;
+  border-radius: 25px;
+  border-color: var(--primary);
+  border-style: solid;
+  color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+}
+
+.instaBtn:hover {
+  border-color: var(--white);
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.instaIcon {
+  width: 15px;
+}
+
+.photoLine {
+  margin-top: 70px;
+  width: 110%;
+  overflow: hidden;
+  display: flex;
+}
+
+.overlay {
+  margin: 0;
+  width: 225px;
+}
+
+.overlay:hover .instaReel {
+  height: 225px;
+  width: 225px;
+}
+
+.instaReel:hover {
+  filter: brightness(30%);
+}
+
+/* MailingList Styles */
+
+.mailingList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.input {
+  width: 250px;
+  border-radius: 25px;
+  border-width: 0.5px;
+  font-size: 14px;
+  font-weight: bold;
+  border-color: var(--sage);
+  padding-left: 15px;
+  height: 30px;
+  margin: 5px;
+}
+
+.input::placeholder {
+  color: var(--sage);
+}
+
+.inputBtn {
+  width: 100px;
+  height: 30px;
+  border-radius: 25px;
+  border-color: var(--sage);
+  border-style: solid;
+  background-color: var(--sage);
+  margin: 5px;
+  color: var(--white);
+}
+
+/* Benefits Styles */
+
+.benefits {
+  display: flex;
+  color: var(--darkkale);
+  background-color: var(--lightmint);
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer Styles */
