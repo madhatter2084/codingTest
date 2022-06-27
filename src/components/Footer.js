@@ -3,56 +3,60 @@ import { ImFacebook } from "react-icons/im";
 import { BsInstagram, BsTwitter, BsYoutube } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import logo from "../assets/colorLogo.png";
+import { GoMail } from "react-icons/go";
 
 function Footer() {
   return (
     <div className="footer">
       <div className="logoSocials">
         <div className="imageContainer">
-          <img className="logo" src={logo} alt="Foodini's logo" />
+          <img className="logo2" src={logo} alt="Foodini's logo" />
         </div>
-        <div className="socials">
+        <div className="socials2">
           <div className="socialIcon">
-            <ImFacebook />
+            <ImFacebook className="reactIcons" />
           </div>
           <div className="socialIcon">
-            <BsInstagram />
+            <BsInstagram className="reactIcons" />
           </div>
           <div className="socialIcon">
-            <BsTwitter />
+            <BsTwitter className="reactIcons" />
           </div>
           <div className="socialIcon">
-            <BsYoutube />
+            <BsYoutube className="reactIcons" />
           </div>
           <div className="socialIcon">
-            <FaLinkedinIn />
+            <FaLinkedinIn className="reactIcons" />
+          </div>
+          <div className="socialIcon">
+            <GoMail className="reactIcons" />
           </div>
         </div>
       </div>
       <div className="catering">
         <h2>Catering</h2>
         <div className="notes">
-          <p>Main Menu</p>
-          <p>3 Days Notice</p>
+          <p className="group">Main Menu</p>
+          <p className="bold group">3 Days Notice</p>
         </div>
         <div className="notes">
-          <p>Quick Corporate Menus</p>
-          <p>12 hr Notice</p>
+          <p className="group">Quick Corporate Menus</p>
+          <p className="bold group">12 hr Notice</p>
         </div>
         <div className="notes">
-          <p>Staffed Events</p>
-          <p>10 Day Notice</p>
+          <p className="group">Staffed Events</p>
+          <p className="bold group">10 Day Notice</p>
         </div>
       </div>
       <div className="visit">
         <h2>Visit</h2>
-        <div className="links">
-          <p>My Account</p>
-          <p>Shipping & Pickups</p>
-          <p>Returns & Warranty</p>
-          <p>About Us</p>
-          <p>Search</p>
-          <p>Contact Us</p>
+        <div>
+          <p className="links">My Account</p>
+          <p className="links">Shipping & Pickups</p>
+          <p className="links">Returns & Warranty</p>
+          <p className="links">About Us</p>
+          <p className="links">Search</p>
+          <p className="links">Contact Us</p>
         </div>
       </div>
     </div>

@@ -6,17 +6,17 @@ import { MdOutlinePayment } from "react-icons/md";
 function Benefits() {
   return (
     <div className="benefits">
-      <GiPaperBagOpen />
+      <GiPaperBagOpen className="randomIcons" />
       <div className="benefitCard">
         <h2>Wholesome Ingredients</h2>
         <p>Enjoy your favorite flavor profiles</p>
       </div>
-      <FaShippingFast />
+      <FaShippingFast className="randomIcons" />
       <div className="benefitCard">
         <h2>Free Shipping</h2>
         <p>Orders over $80</p>
       </div>
-      <MdOutlinePayment />
+      <MdOutlinePayment className="randomIcons" />
       <div className="benefitCard">
         <h2>Payment</h2>
         <p>All Major Credit Cards</p>

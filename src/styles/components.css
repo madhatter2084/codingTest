@@ -35,6 +35,7 @@ header {
 }
 
 /* Nav Styles */
+
 nav {
   display: flex;
   height: 90px;
@@ -52,6 +53,7 @@ ul {
 
 li:hover {
   color: var(--primary);
+  cursor: pointer;
 }
 
 .account {
@@ -61,10 +63,17 @@ li:hover {
 
 .account__icon {
   width: 35px;
+  margin: 6px;
 }
 
 .account__icon:last-child {
   margin-right: 65px;
+}
+
+.account__icon:hover {
+  transform: scale(2);
+  transition: transform ease 300ms;
+  cursor: pointer;
 }
 
 .imageContainer {
@@ -79,6 +88,7 @@ li:hover {
 }
 
 /* Hero Styles */
+
 .hero {
   background-image: url("../assets/mussels.jpeg");
   height: 470px;
@@ -103,6 +113,12 @@ li:hover {
   margin: 5px;
 }
 
+.white:hover {
+  color: var(--white);
+  background-color: var(--darkkale);
+  cursor: pointer;
+}
+
 .orange {
   background-color: var(--primary);
   color: var(--white);
@@ -112,6 +128,12 @@ li:hover {
   font-size: 18px;
   border-style: none;
   margin: 5px;
+}
+
+.orange:hover {
+  background-color: var(--white);
+  color: var(--primary);
+  cursor: pointer;
 }
 
 .title {
@@ -166,6 +188,7 @@ li:hover {
 
 .bold:hover {
   color: var(--primary);
+  cursor: pointer;
 }
 
 /* Info Styles */
@@ -204,6 +227,26 @@ li:hover {
 
 .title2 {
   font-size: 44px;
+}
+
+.infoBtn {
+  background-color: var(--primary);
+  color: var(--white);
+  width: 175px;
+  height: 40px;
+  border-radius: 25px;
+  font-size: 18px;
+  border-style: none;
+  margin: 5px;
+  border-style: solid;
+  border-color: white;
+}
+
+.infoBtn:hover {
+  color: var(--primary);
+  background-color: var(--white);
+  border-color: var(--primary);
+  cursor: pointer;
 }
 
 /* Order Styles */
@@ -284,6 +327,7 @@ li:hover {
   border-color: var(--white);
   color: var(--white);
   background-color: var(--primary);
+  cursor: pointer;
 }
 
 .instaIcon {
@@ -309,6 +353,7 @@ li:hover {
 
 .instaReel:hover {
   filter: brightness(30%);
+  cursor: pointer;
 }
 
 /* MailingList Styles */
@@ -347,6 +392,13 @@ li:hover {
   color: var(--white);
 }
 
+.inputBtn:hover {
+  color: var(--sage);
+  background-color: var(--white);
+  border-color: var(--sage);
+  cursor: pointer;
+}
+
 /* Benefits Styles */
 
 .benefits {
@@ -358,4 +410,61 @@ li:hover {
   align-items: center;
 }
 
+.randomIcons {
+  height: 50px;
+  color: var(--primary);
+}
+
 /* Footer Styles */
+
+.footer {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logoSocials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer {
+  margin: 0 auto;
+}
+
+.socials2 {
+  margin-top: 30px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo2 {
+  height: 100px;
+  width: 140px;
+  margin: 0 auto;
+}
+
+.reactIcons {
+  height: 20px;
+  width: 20px;
+}
+
+.group {
+  margin: 5px auto;
+}
+
+.notes {
+  margin: 20px auto;
+}
+
+.links {
+  margin: 5px auto;
+}
+
+.links:hover {
+  color: var(--primary);
+  cursor: pointer;
+}

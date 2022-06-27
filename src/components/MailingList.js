@@ -11,7 +11,7 @@ function MailingList() {
           className="input"
           placeholder="Enter Your Email"
         ></input>
-        <button type="submit" class="inputBtn">
+        <button type="submit" className="inputBtn">
           Sign Up
         </button>
       </form>

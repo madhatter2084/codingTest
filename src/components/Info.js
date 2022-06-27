@@ -19,7 +19,7 @@ function Info() {
           for 50 or planning a Corporate Holiday event for 500, Foodini's
           well-seasoned staff will take all the work off your plate.
         </p>
-        <button className="orange">Learn More</button>
+        <button className="infoBtn">Learn More</button>
       </div>
       <div className="verticalImages">
         <img className="rectangle" src={chef} alt="" />
