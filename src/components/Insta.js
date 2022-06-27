@@ -36,6 +36,24 @@ function Insta() {
         <div className="overlay">
           <img className="instaReel" src={eggs} alt="Acai Bowl" />
         </div>
+        <div className="overlay">
+          <img className="instaReel" src={acai} alt="Acai Bowl" />
+        </div>
+        <div className="overlay">
+          <img className="instaReel" src={burrito} alt="Acai Bowl" />
+        </div>
+        <div className="overlay">
+          <img className="instaReel" src={steak} alt="Acai Bowl" />
+        </div>
+        <div className="overlay">
+          <img className="instaReel" src={pasta} alt="Acai Bowl" />
+        </div>
+        <div className="overlay">
+          <img className="instaReel" src={cake} alt="Acai Bowl" />
+        </div>
+        <div className="overlay">
+          <img className="instaReel" src={eggs} alt="Acai Bowl" />
+        </div>
       </div>
     </div>
   );
